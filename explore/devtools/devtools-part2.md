@@ -1,0 +1,2 @@
+1. The bug was that the inputs were being stored as strings, so when they were added, the inputs would be concatenated instead of having their integer values be added. For example, an input of 2 and 3 would give 23 instead of 5.
+2. I would wrap num1 and num2 in ```let result = num1 + num2``` in a Number() call to convert them from strings to numbers. This would then store the desired sum in result rather than their concatenation.
