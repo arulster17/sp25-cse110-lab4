@@ -35,4 +35,4 @@
 16. Code in part2-question16.js
 17. The result is [2, 4, 6], as for each element in the array, we apply doSomething to it and add the result to the new array. Since doSomething doubles the number, the resulting array's elements are double those of the original array's. Thus, the result will be [2, 4, 6].
 18. Code in part2-question18.js
-19. The output is 1 4 3 2
+19. The output is 1 4 3 2.
